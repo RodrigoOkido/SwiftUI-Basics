@@ -13,6 +13,7 @@
 		2BE25214268BF9FB00EF8587 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2BE25213268BF9FB00EF8587 /* Assets.xcassets */; };
 		2BE25217268BF9FB00EF8587 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2BE25216268BF9FB00EF8587 /* Preview Assets.xcassets */; };
 		2BE2521A268BF9FB00EF8587 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2BE25218268BF9FB00EF8587 /* LaunchScreen.storyboard */; };
+		2BE25222268C061400EF8587 /* ContentCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2BE25221268C061400EF8587 /* ContentCell.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +25,7 @@
 		2BE25216268BF9FB00EF8587 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		2BE25219268BF9FB00EF8587 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		2BE2521B268BF9FB00EF8587 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2BE25221268C061400EF8587 /* ContentCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentCell.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -63,6 +65,7 @@
 				2BE25218268BF9FB00EF8587 /* LaunchScreen.storyboard */,
 				2BE2521B268BF9FB00EF8587 /* Info.plist */,
 				2BE25215268BF9FB00EF8587 /* Preview Content */,
+				2BE25221268C061400EF8587 /* ContentCell.swift */,
 			);
 			path = "SwiftUI Basics";
 			sourceTree = "<group>";
@@ -148,6 +151,7 @@
 				2BE2520E268BF9FA00EF8587 /* AppDelegate.swift in Sources */,
 				2BE25210268BF9FA00EF8587 /* SceneDelegate.swift in Sources */,
 				2BE25212268BF9FA00EF8587 /* ContentView.swift in Sources */,
+				2BE25222268C061400EF8587 /* ContentCell.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
