@@ -9,8 +9,13 @@ import SwiftUI
 
 struct AboutCustomizationSection: View {
     var body: some View {
-        Text(/*@START_MENU_TOKEN@*/"Hello, World!"/*@END_MENU_TOKEN@*/)
+        VStack {
+            Text("Customize elements in SwiftUI it's much more easy and intuitive.")
+            Text("Hello, World!")
+        }
+        .navigationTitle("Customizations")
     }
+    
 }
 
 struct AboutCustomizationSection_Previews: PreviewProvider {
