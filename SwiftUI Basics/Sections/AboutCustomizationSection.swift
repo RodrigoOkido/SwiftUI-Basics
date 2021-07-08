@@ -16,17 +16,19 @@ struct AboutCustomizationSection: View {
                 HStack {
                     Text("Hello World!")
                         .padding(10)
-                        .background(Color(.yellow))
+                        .background(Color(.gray))
                         .cornerRadius(10)
+                        .font(.subheadline)
                     Text("Hello World!")
                         .padding(10)
                         .background(Color(.blue))
                         .cornerRadius(10)
-                        .foregroundColor(.white)
+                        .font(.subheadline)
                     Text("Hello World!")
                         .padding(10)
-                        .background(Color(.green))
+                        .background(Color(.red))
                         .cornerRadius(10)
+                        .font(.subheadline)
                 }
                 
                 VStack {
@@ -34,17 +36,17 @@ struct AboutCustomizationSection: View {
                         .padding()
                     Image("customization_1")
                         .resizable()
-                        .frame(width: 280, height: 130, alignment: /*@START_MENU_TOKEN@*/.center/*@END_MENU_TOKEN@*/)
+                        .frame(width: 300, height: 130, alignment: /*@START_MENU_TOKEN@*/.center/*@END_MENU_TOKEN@*/)
                         .cornerRadius(10)
                     Image("customization_2")
                         .resizable()
-                        .frame(width: 280, height: 190, alignment: /*@START_MENU_TOKEN@*/.center/*@END_MENU_TOKEN@*/)
+                        .frame(width: 300, height: 210, alignment: /*@START_MENU_TOKEN@*/.center/*@END_MENU_TOKEN@*/)
                         .cornerRadius(10)
                     
                 }
                 .padding()
                 
-                Text("Many customizations types are already inside SwiftUI.")
+                Text("Many customizations types are already available in SwiftUI.")
                 
             }
             .padding()

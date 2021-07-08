@@ -36,13 +36,13 @@ struct ContentView: View {
                         NavigationLink (
                             destination: AboutCustomizationSection(),
                             label: {
-                                ContentCell(title: "Customizations", description: "You can customize your elements in swiftUI easily.", textColor: Color(.black), backgroundColor: Color(.lightGray))
+                                ContentCell(title: "Customizations", description: "You can customize your elements in swiftUI easily.", textColor: Color(.white), backgroundColor: Color(.lightGray))
                             })
                         
                         NavigationLink (
                             destination: AboutNavigationSection(),
                             label: {
-                                ContentCell(title: "Navigation", description: "Navigations between screens can be made with NavigationLink.", textColor: Color(.black), backgroundColor: Color(.orange))
+                                ContentCell(title: "Navigation", description: "How navigate between my Views in SwiftUI", textColor: Color(.white), backgroundColor: Color(.orange))
                             })
                     }
                     

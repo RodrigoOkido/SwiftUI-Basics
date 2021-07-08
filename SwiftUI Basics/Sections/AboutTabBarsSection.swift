@@ -9,8 +9,23 @@ import SwiftUI
 
 struct AboutTabBarsSection: View {
     var body: some View {
-        VStack {
-            Text("Hello, World!")
+        TabView {
+            VStack {
+                Text("Simple and intuitive to create")
+                Image("tabbars")
+                    .resizable()
+                    .frame(width: 350, height: 240, alignment: /*@START_MENU_TOKEN@*/.center/*@END_MENU_TOKEN@*/)
+                    .cornerRadius(10)
+            }
+            .tabItem {
+                Label ("Tab 1", systemImage: "person.fill")
+            }
+            VStack {
+                Text("Hey! I am tab 2!")
+            }
+            .tabItem {
+                Label ("Tab 2", systemImage: "heart.fill")
+            }
         }
         .navigationTitle("Tab bars")
     }
