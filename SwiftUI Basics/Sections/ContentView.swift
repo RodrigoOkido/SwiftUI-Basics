@@ -59,6 +59,14 @@ struct ContentView: View {
                                 ContentCell(title: "TableView", description: "How do TableView in SwifftUI.", textColor: Color(.white), backgroundColor: Color(.systemPink))
                             })
                     }
+                    
+                    HStack {
+                        NavigationLink (
+                            destination: AboutEventsSection(),
+                            label: {
+                                ContentCell(title: "OnEvents", description: "Check one event example in SwiftUI.", textColor: Color(.white), backgroundColor: Color(.systemTeal))
+                            })
+                    }
                 }
                 Spacer()
             }
