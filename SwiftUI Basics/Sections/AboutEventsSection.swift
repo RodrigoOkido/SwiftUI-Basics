@@ -20,7 +20,7 @@ struct AboutEventsSection: View {
                 }
 
                 Spacer()
-                Text("Drag any food item below to the empty square above and check what can be good or not for anxiety. To switch, just drag a new one inside the square.")
+                Text("Drag any food item below to the empty square above. To switch, just drag a new one inside the square.")
                 
                 ScrollView (.horizontal, showsIndicators: false) {
                     HStack {
@@ -32,10 +32,11 @@ struct AboutEventsSection: View {
                 }
                 
                 
-                Text("You can check how this code was implemented here")
+                Text("You can check how this example was implemented here")
+                    .padding()
                 
                 Link(
-                    destination: URL(string: "https://developer.apple.com/documentation/swiftui/")!,
+                    destination: URL(string: "https://github.com/RodrigoOkido/SwiftUI-Basics/blob/main/SwiftUI%20Basics/Sections/AboutEventsSection.swift")!,
                     label: {
                         Text("Click Here")
                     })
