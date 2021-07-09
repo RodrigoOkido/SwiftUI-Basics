@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		2B983E6F2697DB9600D85135 /* AboutTableViewSection.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2B983E6E2697DB9600D85135 /* AboutTableViewSection.swift */; };
 		2BE2520E268BF9FA00EF8587 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2BE2520D268BF9FA00EF8587 /* AppDelegate.swift */; };
 		2BE25210268BF9FA00EF8587 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2BE2520F268BF9FA00EF8587 /* SceneDelegate.swift */; };
 		2BE25212268BF9FA00EF8587 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2BE25211268BF9FA00EF8587 /* ContentView.swift */; };
@@ -22,6 +23,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		2B983E6E2697DB9600D85135 /* AboutTableViewSection.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AboutTableViewSection.swift; sourceTree = "<group>"; };
 		2BE2520A268BF9FA00EF8587 /* SwiftUI Basics.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "SwiftUI Basics.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		2BE2520D268BF9FA00EF8587 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		2BE2520F268BF9FA00EF8587 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -97,6 +99,7 @@
 				2BE25227268D22E100EF8587 /* AboutCustomizationSection.swift */,
 				2BE25229268D231100EF8587 /* AboutTabBarsSection.swift */,
 				2BE2522B268D235600EF8587 /* AboutNavigationSection.swift */,
+				2B983E6E2697DB9600D85135 /* AboutTableViewSection.swift */,
 			);
 			path = Sections;
 			sourceTree = "<group>";
@@ -172,6 +175,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				2BE25228268D22E100EF8587 /* AboutCustomizationSection.swift in Sources */,
+				2B983E6F2697DB9600D85135 /* AboutTableViewSection.swift in Sources */,
 				2BE25226268D22BC00EF8587 /* AboutStackSection.swift in Sources */,
 				2BE25224268D210C00EF8587 /* HelloWorldSection.swift in Sources */,
 				2BE2522A268D231100EF8587 /* AboutTabBarsSection.swift in Sources */,

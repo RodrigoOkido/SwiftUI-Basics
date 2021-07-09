@@ -18,6 +18,7 @@ struct AboutNavigationSection: View {
                 .padding()
                 .font(.subheadline)
         }
+        .padding()
         .navigationTitle("Navigation")
     }
 }
