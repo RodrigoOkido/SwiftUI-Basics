@@ -21,6 +21,8 @@ struct AboutEventsSection: View {
                     }
 
                     Text("Drag any food item below to the empty square above. To switch, just drag a new one inside the square.")
+                        .font(.subheadline)
+
                         
                     Spacer()
                     
@@ -37,6 +39,8 @@ struct AboutEventsSection: View {
                 
                 VStack {
                     Text("You can check how this example was implemented on the button below:")
+                        .font(.subheadline)
+
 
                     Link(
                         destination: URL(string: "https://github.com/RodrigoOkido/SwiftUI-Basics/blob/main/SwiftUI%20Basics/Sections/AboutEventsSection.swift")!,

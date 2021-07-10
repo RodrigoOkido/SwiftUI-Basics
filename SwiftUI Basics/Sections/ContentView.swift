@@ -13,8 +13,8 @@ struct ContentView: View {
             ScrollView {
                 VStack {
                     VStack {
-                        Text("This is an simple application built in SwiftUI. You can check below some amazing things using this framework.")
-                            .padding()
+                        Text("This is an simple application built in SwiftUI. You can check below some amazing things you can do using this framework.")
+                            .font(.headline)
                             .lineLimit(5)
                     }
                     Divider()

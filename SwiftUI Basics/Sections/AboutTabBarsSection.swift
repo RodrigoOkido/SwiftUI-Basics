@@ -12,6 +12,8 @@ struct AboutTabBarsSection: View {
         TabView {
             VStack {
                 Text("Simple and intuitive to create")
+                    .font(.headline)
+
                 Image("tabbars")
                     .resizable()
                     .frame(width: 350, height: 240, alignment: /*@START_MENU_TOKEN@*/.center/*@END_MENU_TOKEN@*/)

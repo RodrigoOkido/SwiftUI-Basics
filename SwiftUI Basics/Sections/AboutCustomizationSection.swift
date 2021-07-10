@@ -33,6 +33,7 @@ struct AboutCustomizationSection: View {
                 
                 VStack {
                     Text("Create and customize your view.")
+                        .font(.subheadline)
                         .padding()
                     Image("customization_1")
                         .resizable()
@@ -47,6 +48,8 @@ struct AboutCustomizationSection: View {
                 .padding()
                 
                 Text("Many customizations types are already available in SwiftUI.")
+                    .font(.subheadline)
+
                 
             }
             .padding()

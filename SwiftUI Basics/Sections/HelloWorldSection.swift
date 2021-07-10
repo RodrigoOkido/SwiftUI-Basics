@@ -21,10 +21,12 @@ struct HelloWorldSection: View {
                     .padding()
                 
                 Text("More declarative syntax, its possible to create complex programs more easily to read and understand.")
-                    .font(.caption)
+                    .font(.subheadline)
                     
                 Spacer(minLength: 30)
                 Text("Check more about SwiftUI")
+                    .font(.subheadline)
+
                 
                 Link("Check Here", destination: URL(string: "https://developer.apple.com/documentation/swiftui/")!)
                     .padding()
