@@ -12,38 +12,42 @@ struct AboutEventsSection: View {
     var body: some View {
         ScrollView {
             VStack {
-                Text("Lets check a simple onDrag and onDrop example.")
-                    .font(.headline)
-                Spacer()
-                FoodDropPlaceView(foods: list) { foodId in
-                    print(foodId)
-                }
-
-                Spacer()
-                Text("Drag any food item below to the empty square above. To switch, just drag a new one inside the square.")
-                
-                ScrollView (.horizontal, showsIndicators: false) {
-                    HStack {
-                        ForEach (list, id: \.self) {food in
-                            food
-                        }
+                VStack {
+                    Text("Lets check a simple onDrag and onDrop example.")
+                        .font(.headline)
+                    
+                    FoodDropPlaceView(foods: list) { foodId in
+                        print(foodId)
                     }
-                    .padding()
+
+                    Text("Drag any food item below to the empty square above. To switch, just drag a new one inside the square.")
+                        
+                    Spacer()
+                    
+                    ScrollView (.horizontal, showsIndicators: false) {
+                        HStack {
+                            ForEach (list, id: \.self) {food in
+                                food
+                            }
+                            .border(Color.white)
+                        }
+                        .padding()
+                    }
                 }
                 
-                
-                Text("You can check how this example was implemented here")
-                    .padding()
-                
-                Link(
-                    destination: URL(string: "https://github.com/RodrigoOkido/SwiftUI-Basics/blob/main/SwiftUI%20Basics/Sections/AboutEventsSection.swift")!,
-                    label: {
-                        Text("Click Here")
-                    })
-                    .padding()
-                    .foregroundColor(.white)
-                    .background(Color(.systemBlue))
-                    .cornerRadius(15)
+                VStack {
+                    Text("You can check how this example was implemented on the button below:")
+
+                    Link(
+                        destination: URL(string: "https://github.com/RodrigoOkido/SwiftUI-Basics/blob/main/SwiftUI%20Basics/Sections/AboutEventsSection.swift")!,
+                        label: {
+                            Text("Click Here")
+                        })
+                        .padding()
+                        .foregroundColor(.white)
+                        .background(Color(.systemBlue))
+                        .cornerRadius(15)
+                }
             }
             .padding()
             .navigationTitle("Event")

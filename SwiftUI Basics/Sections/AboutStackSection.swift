@@ -24,7 +24,7 @@ struct AboutStackSection: View {
                     Text("ZStack: \n    Overlay children elements on the View.")
                 }
                 .padding()
-                .font(.system(size: 15))
+                .font(.subheadline)
             }
             .padding()
             .navigationTitle("Stack")
